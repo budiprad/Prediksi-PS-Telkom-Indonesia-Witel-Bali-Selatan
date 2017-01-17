@@ -1,0 +1,166 @@
+body {
+	padding:0;
+	margin:0;
+    background:#b30000;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    -moz-background-size: cover;
+}
+
+#container {
+	padding: 30px;
+}
+
+#container h1 {
+	font-size: 45px;
+	color: #ffffff;
+	text-align: center;
+	font-family: Helvetica, Arial;
+	letter-spacing: 2px;
+}
+
+#container h2 {
+	font-size: 35px;
+	color: #ffffff;
+	text-align: center;
+	font-family: Helvetica, Arial;
+	letter-spacing: 2px;
+	margin-top: 3px;
+}
+
+#main {
+	width: 30%;
+	background: #ffffff;
+	margin: 30px auto;
+	padding: 30px 30px;
+	font-family: Helvetica, Arial;
+}
+
+.logo {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.content {
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.text-upl {
+	text-align: center;
+	letter-spacing: 1px;
+	padding:0;
+	-webkit-border-radius:0;
+	-moz-border-radius:0;
+	-o-border-radius:0;
+	border-radius:0;
+	font-size: 20px;
+	font-weight:600;
+	text-align: center;
+}
+
+.unit { 
+	position:relative; 
+	margin-bottom:25px;  
+	text-align:center; 
+	margin-top: 20px;
+	margin-left: 135px;
+}
+
+.content-switcher {
+  display: none;
+}
+
+.content-switcher:first-child{
+  display: block;
+}
+
+#next {
+	border:none;
+	border-radius:3px;
+	color:#fff;
+	font-size:16px;
+	padding:10px 25px;
+}
+
+#nexts {
+	border:none;
+	border-radius:3px;
+	color:#fff;
+	font-size:16px;
+	padding:10px 25px;
+	float: right;
+}
+
+#back {
+	border:none;
+	display: none;
+	border-radius:3px;
+	color:#fff;
+	font-size:16px;
+	padding:10px 25px;
+	margin-left: 0;
+	margin-right: 210px;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #b30000;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #c9302c;
+}
+
+.copy_rights {
+    color: #333333;
+    font-size: 14px;
+    text-align: center;
+    background: #6b0000;
+}
+
+.inline-btn {
+	box-sizing: border-box;
+}
+
+.inline-btn-next {
+	box-sizing: border-box;
+	text-align: right;
+}
+
+.footer {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.footer h5 {
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+	color: #ffffff;
+	font-family: Helvetica, Arial;
+}
+
+.footer a {
+	text-decoration: none;
+}
+
+.footer a:visited {
+	text-decoration: none;
+	color: #7d0000;
+}
+
+.footer h6 {
+	display: inline-block;
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+	color: #ffffff;
+	background: #7d0000;
+	font-family: Helvetica, Arial;
+}
+
